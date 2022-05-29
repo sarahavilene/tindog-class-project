@@ -3,25 +3,15 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    ;
+    text-align: center;
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 2rem;
-    line-height: 1.5;
-}
-
-h3 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
@@ -30,6 +20,15 @@ p {
     color: #8f8f8f;
 }
 
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
 
 /* Navbar */
 .container-fluid {
@@ -48,7 +47,7 @@ p {
 
 .nav-item {
     padding: 0 18px;
-
+    text-align: left;
 }
 
 .nav-link {
@@ -60,7 +59,8 @@ p {
 
 #title {
     background-color: #ff4c68;
-    color: #fefefe
+    color: #fefefe;
+    text-align: left;
 }
 
 .download-button {
@@ -92,12 +92,13 @@ p {
     padding: 7% 15%;
     background: #fefefe;
     position: relative;
+}
 
-
+.feature-heading {
+    font-size: 1.5rem;
 }
 
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
@@ -112,16 +113,20 @@ p {
 
 /* Testimonial Section */
 
+#testimonials {
+    background-color: #ef8172;
+    color: #fefefe;
+}
+
 .testimonial-image {
     border-radius: 100%;
     width: 10%;
     margin: 20px;
 }
 
-#testimonials {
-    background-color: #ef8172;
-    color: #fefefe;
-    text-align: center;
+.testimonial-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
 }
 
 .carousel-item {
@@ -130,7 +135,6 @@ p {
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 
 }
@@ -144,10 +148,34 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-column {
     padding: 3% 2%;
+
+}
+
+.price-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/* Call to Action Section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fefefe;
+    padding: 7% 15%;
+}
+
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+}
+
+.icons {
+    padding: 5px;
 
 }
